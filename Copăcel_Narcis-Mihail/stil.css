@@ -1,0 +1,108 @@
+body {  background-color: white;}
+		h1.nume { color :#999999;
+				 border: 4.5px solid black;
+				 text-align: right;
+				 background-color: #a6a6a6;}
+		h3.sectiuni { color: #a6a6a6;
+		              text-align: right;
+					  font-size: 30px;}
+		p { color :gray;
+		   text-align: right;}
+		
+		table {background-color: #99ffe6;
+				width: auto;
+                
+                margin-left: auto;
+				background-color: white;}
+		table, tr,th, td ,ul {border: 1px solid black;
+		}
+        
+        h1.nume{font-family: Verdana;
+           font-style: bold;
+           font-size: 36px;}
+		   
+        p{font-family ; Arial;
+          font-size: 18px;}
+		  
+        img.diagrama{ 
+             width: 500px;
+             display :block;
+             padding: 10px;
+             margin-left: auto;
+             opacity: 0.95;}	
+        h3.sectiuni2 { color: #a6a6a6;
+		              text-align: center;
+					   font-size: 30px;
+					  }		
+        ul { display: table;
+		     border-style: none;
+             margin-right:auto;
+			 text-align: left;
+			 }	
+        ul.lista { display: table;
+		     border-style: none;
+             margin:auto;
+			 
+			 }					 
+	div.gri{ background-color: #d9d9d9;
+	          border: 2px solid #b3b3b3;
+			  padding: 5px;
+			 }
+		
+		img.slideshowimg{ 
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+			 }
+			 
+/*.mySlides fade{display: none;}*/
+
+img {vertical-align: middle;}
+
+ /*Slideshow container*/
+ .slideshow-container {
+  display:flex;
+  max-width: 3000px;
+  position: relative;
+  margin: auto;
+}
+
+
+ /*The dots bullets indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+ /*Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*On smaller screens, decrease text size */
+
+@media: only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
